@@ -8,6 +8,6 @@
 5. Вывод результатов.
 6. Конец программы.
 # Блок схема
-(imiges/ShemaDz3.png)
+(images/ShemaDz3.png)
 
 

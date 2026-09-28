@@ -10,7 +10,7 @@
 # Блок-схема
 ![Блок-схема](ShemaDz3.png)
 # Реализация
-'''
+'''c
 #include<stdio.h>
 #include<locale.h>
 int main() {

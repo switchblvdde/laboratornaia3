@@ -10,7 +10,7 @@
 # Блок-схема
 ![Блок-схема](ShemaDz3.png)
 # Реализация
-#include<stdio.h>
+"""#include<stdio.h>
 #include<locale.h>
 int main() {
 	setlocale(LC_ALL, ".UTF8");
@@ -20,7 +20,7 @@ int main() {
 	printf("Обьем куба равен %d\n", a * a * a);
 	printf("Площадь боковой поверхности равна %d\n",4 * a * a);
 	return 0;
-}
+}"""
 # Результат работы 
 Введите а
 a=5

@@ -70,3 +70,17 @@ int main() {
 	printf("%c %d %.2f %.le", c, i, f, d);
 
 }
+--------------------------------------------------------------------------------------------------
+5.1
+#define M_PI 3.14159265358979323846
+#include<math.h>
+#include<stdio.h>
+#include<locale.h>
+int main() {
+	setlocale(LC_ALL,".UTF8");
+	double gr;
+	printf("Введите значение gr - ");
+	scanf_s("%lf", &gr);
+	printf("Ответ %.6lf => %.6lf", gr * M_PI / 180,sin(gr * M_PI / 180));
+	return 0;
+}

@@ -49,3 +49,24 @@ int main() {
 	return 0;
 
 }
+-------------------------------------------------------------------------------------------------------------------------
+	1
+	#include<stdio.h>
+#include<locale.h>
+int main() {
+	setlocale(LC_ALL, ".UTF8");
+	char c;
+	int i;
+	float f;
+	double d;
+	printf("Введите с ");
+	scanf_s("%c", &c);
+	printf("Введите i ");
+	scanf_s("%d", &i);
+	printf("Введите f ");
+	scanf_s("%f", &f);
+	printf("Введите d\n ");
+	scanf_s("%f", &d);
+	printf("%c %d %.2f %.le", c, i, f, d);
+
+}

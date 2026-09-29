@@ -35,3 +35,17 @@ int main() {
 	system("pause");
 	return 0;
 }
+------------------------------------------------------------------------------------------------------------------------
+	3
+	#include<stdio.h>
+#include<locale.h>
+int main() {
+	setlocale(LC_ALL, ".UTF8");
+	int a;
+	scanf_s("%d", &a);
+	printf("последня цифра %d первая цифра %d сумма цифр %d\n", a % 10, a / 100, a % 10 + a / 100 +a/10%10);
+	printf("Число наоборот %d%d%d\n", a % 10, a / 10 % 10, a / 100);
+	system("Pause");
+	return 0;
+
+}

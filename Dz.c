@@ -84,3 +84,56 @@ int main() {
 	printf("Ответ %.6lf => %.6lf", gr * M_PI / 180,sin(gr * M_PI / 180));
 	return 0;
 }
+=----------------
+	#define p 0.5
+#include<math.h>
+#include<stdio.h>
+#include<locale.h>
+double name(double x) {
+	double res1;
+	res1 = x * x * x;
+	return res1;
+}
+double name1(double x) {
+	double res2;
+	res2 = 4 * x * x;
+	return res2;
+}
+double name3(double x) {
+	double res3;
+	res3 = 4 * x * x;
+	return res3;
+}
+int main() {
+	printf("Введите число x\n ");
+	scanf_s("%d", &x);
+
+ 
+	return 0;
+}
+#define p 0.5
+#include<math.h>
+#include<stdio.h>
+#include<locale.h>
+double name(double x) {
+	double res1;
+	res1 = x * x * x;
+	return res1;
+}
+double name1(double x) {
+	double res2;
+	res2 = 4 * x * x;
+	return res2;
+}
+double name3(double x) {
+	double res3;
+	res3 = 4 * x * x;
+	return res3;
+}
+int main() {
+	printf("Введите число x\n ");
+	scanf_s("%d", &x);
+
+ 
+	return 0;
+}
